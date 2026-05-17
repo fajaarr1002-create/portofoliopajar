@@ -1,1 +1,1658 @@
+<!DOCTYPE html>
+<html lang="id" class="overflow-x-hidden">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Muhammad Fajar Portfolio</title>
+  <meta name="description"
+    content="Portfolio resmi Muhammad Fajar (JarzGosling). Fotografi, web design, dan programming.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Muhammad Fajar",
+      "url": "https://jarrportfolio.vercel.app",
+      "image": "https://c.termai.cc/i165/RJne.jpg",
+      "jobTitle": "Web Developer & Network Administrator",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Photography"
+      },
+      "sameAs": [
+        "https://github.com/fajaarr1002-create",
+        "https://www.linkedin.com/in/muhammad-fajar-4833923a0/",
+        "https://www.instagram.com/snapshot.by.jar/"
+      ],
+      "description": "Saya Muhammad Fajar, Halo, saya biasa dipanggil Pajar atau dikenal juga sebagai JarzGosling. Saya adalah pelajar SMP kelas 8 berusia 14 tahun yang memiliki minat besar di bidang digital dan kreativitas. Saya menyukai fotografi, khususnya street photography, karena bagi saya setiap momen memiliki cerita dan sudut pandang tersendiri untuk diabadikan. Selain itu, saya juga tertarik mempelajari basic programming, terutama membuat website sederhana dan animasi menggunakan CSS, serta mengeksplorasi basic web design dan prompt writing."
+    }
+    </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0RPE8VRFSH"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-0RPE8VRFSH');
+  </script>
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ["Inter", "sans-serif"],
+          },
+          colors: {
+            "neo-yellow": "#FFD600",
+            "neo-pink": "#FF006E",
+            "neo-blue": "#3A86FF",
+            "neo-green": "#00FF66",
+            "neo-orange": "#FB5607",
+            "neo-purple": "#8338EC",
+            "neo-bg": "#F5F5F5",
+          },
+          boxShadow: {
+            "neo": "4px 4px 0px 0px #000000",
+            "neo-lg": "8px 8px 0px 0px #000000",
+            "neo-xl": "12px 12px 0px 0px #000000",
+          },
+          borderWidth: {
+            "3": "3px",
+            "4": "4px",
+            "6": "6px",
+            "8": "8px",
+          },
+          animation: {
+            typing: "typing 3.5s steps(40, end), blink-caret .75s step-end infinite",
+            float: "float 6s ease-in-out infinite",
+            "pulse-slow": "pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+            "bounce-slow": "bounce 3s infinite",
+            "spin-slow": "spin 8s linear infinite",
+            wiggle: "wiggle 1s ease-in-out infinite",
+            gradient: "gradient 15s ease infinite",
+            "slide-up": "slideUp 0.5s ease-out",
+            "slide-in": "slideIn 0.6s ease-out",
+            "scale-in": "scaleIn 0.5s ease-out",
+            "fade-in": "fadeIn 0.5s ease-out",
+          },
+          keyframes: {
+            typing: {
+              from: { width: "0" },
+              to: { width: "100%" },
+            },
+            "blink-caret": {
+              "from, to": { borderColor: "transparent" },
+              "50%": { borderColor: "#000000" },
+            },
+            float: {
+              "0%, 100%": { transform: "translate(0px, 0px)" },
+              "50%": { transform: "translate(-4px, -4px)" },
+            },
+            wiggle: {
+              "0%, 100%": { transform: "rotate(-3deg)" },
+              "50%": { transform: "rotate(3deg)" },
+            },
+            gradient: {
+              "0%, 100%": { backgroundPosition: "0% 50%" },
+              "50%": { backgroundPosition: "100% 50%" },
+            },
+            slideUp: {
+              from: { transform: "translateY(100px)", opacity: "0" },
+              to: { transform: "translateY(0)", opacity: "1" },
+            },
+            slideIn: {
+              from: { transform: "translateX(-100px)", opacity: "0" },
+              to: { transform: "translateX(0)", opacity: "1" },
+            },
+            scaleIn: {
+              from: { transform: "scale(0.8)", opacity: "0" },
+              to: { transform: "scale(1)", opacity: "1" },
+            },
+            fadeIn: {
+              from: { opacity: "0" },
+              to: { opacity: "1" },
+            },
+            "neo-pop": {
+              "0%": { transform: "scale(0.8) rotate(-2deg)", opacity: "0" },
+              "70%": { transform: "scale(1.05) rotate(1deg)", opacity: "1" },
+              "100%": { transform: "scale(1) rotate(0deg)", opacity: "1" },
+            }
+          },
+        },
+      },
+    };
+  </script>
+  <style type="text/css">
+    .neo-card {
+      background: #FFFFFF;
+      border: 3px solid #000000;
+      box-shadow: 6px 6px 0px 0px #000000;
+      transition: all 0.2s ease;
+    }
+
+    .neo-card:hover {
+      transform: translate(-2px, -2px);
+      box-shadow: 8px 8px 0px 0px #000000;
+    }
+
+    .neo-btn {
+      background: #FFD600;
+      border: 2px solid #000000;
+      box-shadow: 4px 4px 0px 0px #000000;
+      transition: all 0.2s ease;
+      font-weight: 700;
+      color: #000000;
+    }
+
+    .neo-btn:hover {
+      transform: translate(-2px, -2px);
+      box-shadow: 6px 6px 0px 0px #000000;
+    }
+
+    .neo-btn:active {
+      transform: translate(2px, 2px);
+      box-shadow: 2px 2px 0px 0px #000000;
+    }
+
+    .gradient-bg {
+      background: #FFD600;
+      border-bottom: 4px solid #000000;
+    }
+
+    .skill-card {
+      background: #FFFFFF;
+      border: 3px solid #000000;
+      box-shadow: 4px 4px 0px 0px #000000;
+      padding: 1.5rem;
+      text-align: center;
+      transition: all 0.2s ease;
+    }
+
+    .skill-card:hover {
+      transform: translate(-4px, -4px);
+      box-shadow: 8px 8px 0px 0px #000000;
+    }
+
+    /* Added marquee animation styles for infinite horizontal scroll */
+    .skills-marquee-container {
+      overflow: hidden;
+      width: 100%;
+      padding: 2rem 0;
+    }
+
+    .skills-marquee {
+      display: flex;
+      gap: 1.5rem;
+      animation: marquee 40s linear infinite;
+      width: fit-content;
+    }
+
+    .skills-marquee-item {
+      flex-shrink: 0;
+      min-width: 120px;
+      background: #FFFFFF;
+      border: 3px solid #000000;
+      box-shadow: 4px 4px 0px 0px #000000;
+      padding: 1.5rem;
+      text-align: center;
+      transition: all 0.2s ease;
+    }
+
+    .skills-marquee-item:hover {
+      transform: translate(-4px, -4px);
+      box-shadow: 8px 8px 0px 0px #000000;
+    }
+
+    @keyframes marquee {
+      0% {
+        transform: translateX(0);
+      }
+
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+
+    /* End marquee animation */
+
+    .project-card {
+      background: #FFFFFF;
+      border: 4px solid #000000;
+      box-shadow: 8px 8px 0px 0px #000000;
+      transition: all 0.2s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .project-card:hover {
+      transform: translate(-4px, -4px);
+      box-shadow: 12px 12px 0px 0px #000000;
+    }
+
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.9);
+      backdrop-filter: blur(5px);
+      align-items: center;
+      justify-content: center;
+    }
+
+    .modal.show {
+      display: flex;
+      animation: fadeIn 0.3s ease-out;
+    }
+
+    .modal-content {
+      background: #FFFFFF;
+      border: 4px solid #000000;
+      box-shadow: 12px 12px 0px 0px #000000;
+      padding: 2rem;
+      max-width: 90vw;
+      max-height: 90vh;
+      overflow-y: auto;
+      animation: scaleIn 0.3s ease-out;
+    }
+
+    .floating-label {
+      transition: all 0.3s ease;
+      pointer-events: none;
+    }
+
+    .form-input:focus+.floating-label,
+    .form-input:not(:placeholder-shown)+.floating-label {
+      transform: translateY(-25px) scale(0.8);
+      color: #000000;
+      font-weight: 700;
+    }
+
+    /* Project carousel styling */
+    .carousel-container {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .carousel-inner {
+      display: flex;
+      transition: transform 0.5s ease;
+    }
+
+    .carousel-item {
+      flex: 0 0 33.333%;
+      padding: 0 1rem;
+      min-width: 0;
+    }
+
+    @media (max-width: 768px) {
+      .carousel-item {
+        flex: 0 0 100%;
+      }
+    }
+
+    .carousel-button-static {
+      width: 50px;
+      height: 50px;
+      background: #FFD600;
+      border: 3px solid #000000;
+      box-shadow: 4px 4px 0px 0px #000000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #000000;
+      font-size: 20px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .carousel-button-static:hover {
+      background: #FF006E;
+      color: #FFFFFF;
+      transform: translate(-2px, -2px);
+      box-shadow: 6px 6px 0px 0px #000000;
+    }
+
+    .carousel-button-static:active {
+      transform: translate(2px, 2px);
+      box-shadow: 2px 2px 0px 0px #000000;
+    }
+
+
+    .testimonial-card {
+      background: #FFFFFF;
+      border: 3px solid #000000;
+      box-shadow: 6px 6px 0px 0px #000000;
+      transition: all 0.2s ease;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .testimonial-card:hover {
+      transform: translate(-4px, -4px);
+      box-shadow: 10px 10px 0px 0px #000000;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes slideInCard {
+      from {
+        opacity: 0;
+        transform: translateX(-20px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    .testimonial-card {
+      animation: fadeInUp 0.6s ease-out forwards;
+    }
+
+    .testimonial-card:nth-child(1) {
+      animation-delay: 0.1s;
+    }
+
+    .testimonial-card:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+
+    .testimonial-card:nth-child(3) {
+      animation-delay: 0.3s;
+    }
+
+    .testimonial-stat {
+      animation: slideInCard 0.6s ease-out forwards;
+    }
+
+    .testimonial-stat:nth-child(1) {
+      animation-delay: 0.4s;
+    }
+
+    .testimonial-stat:nth-child(2) {
+      animation-delay: 0.5s;
+    }
+
+    .testimonial-stat:nth-child(3) {
+      animation-delay: 0.6s;
+    }
+
+    .testimonial-stat:nth-child(4) {
+      animation-delay: 0.7s;
+    }
+
+    @media (hover: none) and (pointer: coarse) {
+
+      .skill-card:active,
+      .project-card:active,
+      .testimonial-card:active {
+        transform: scale(0.98);
+      }
+    }
+
+    .skill-filter-btn.active {
+      transform: translate(-2px, -2px);
+      background: #FFD600;
+      box-shadow: 4px 4px 0px 0px #000000;
+      border: 2px solid #000000;
+    }
+
+    /* GitHub contribution graph styles */
+    .github-contribution-graph {
+      display: grid;
+      grid-template-columns: repeat(52, minmax(12px, 1fr));
+      gap: 3px;
+      width: 100%;
+    }
+
+    .contribution-day {
+      width: 12px;
+      height: 12px;
+      border-radius: 2px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .contribution-day:hover {
+      transform: scale(1.3);
+    }
+
+    .contribution-day.level-0 {
+      background-color: rgba(48, 54, 61, 0.4);
+    }
+
+    .contribution-day.level-1 {
+      background-color: #0e4429;
+    }
+
+    .contribution-day.level-2 {
+      background-color: #006d32;
+    }
+
+    .contribution-day.level-3 {
+      background-color: #26a641;
+    }
+
+    .contribution-day.level-4 {
+      background-color: #39d353;
+    }
+
+    .dragging {
+      animation: none !important;
+      transition: none !important;
+      z-index: 40 !important;
+    }
+
+    @keyframes slideDownRope {
+      0% {
+        transform: translateY(-200px);
+        opacity: 0;
+      }
+
+      60% {
+        transform: translateY(20px);
+        opacity: 1;
+      }
+
+      80% {
+        transform: translateY(-10px);
+      }
+
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    .animate-slide-down-rope {
+      animation: slideDownRope 1.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+    }
+
+    /* Scroll Reveal Animations */
+    .reveal {
+      opacity: 0;
+      transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      will-change: transform, opacity;
+    }
+
+    .reveal-up {
+      transform: translateY(60px);
+    }
+
+    .reveal-down {
+      transform: translateY(-60px);
+    }
+
+    .reveal-left {
+      transform: translateX(-60px);
+    }
+
+    .reveal-right {
+      transform: translateX(60px);
+    }
+
+    .reveal-scale {
+      transform: scale(0.8);
+    }
+
+    .reveal.active {
+      opacity: 1 !important;
+      transform: translate(0) scale(1) !important;
+    }
+
+    .delay-100 {
+      transition-delay: 100ms;
+    }
+
+    .delay-200 {
+      transition-delay: 200ms;
+    }
+
+    .delay-300 {
+      transition-delay: 300ms;
+    }
+
+    .delay-400 {
+      transition-delay: 400ms;
+    }
+
+    .delay-500 {
+      transition-delay: 500ms;
+    }
+
+    /* End GitHub styles */
+  </style>
+</head>
+
+<body class="bg-neo-bg text-black font-sans selection:bg-neo-pink selection:text-white overflow-x-hidden">
+  <!-- Enhanced Header with Language Toggle -->
+  <header class="fixed top-0 left-0 right-0 z-50 bg-white border-b-4 border-black">
+    <div class="container mx-auto px-4 sm:px-6 py-4">
+      <div class="flex justify-between items-center">
+        <a href="#" class="text-xl sm:text-2xl font-black text-black uppercase tracking-tighter">
+          Muhammad <span class="bg-neo-yellow px-1 border-2 border-black">Fajar</span>
+        </a>
+        <!-- Navigation -->
+        <nav class="hidden md:flex space-x-6 lg:space-x-8">
+          <a href="#home"
+            class="nav-link active py-2 text-sm lg:text-base font-bold text-black hover:bg-neo-yellow px-2 transition-all"
+            data-translate="nav-home">Home</a>
+          <a href="#about"
+            class="nav-link py-2 text-sm lg:text-base font-bold text-black hover:bg-neo-pink hover:text-white px-2 transition-all"
+            data-translate="nav-about">Tentang</a>
+          <a href="#projects"
+            class="nav-link py-2 text-sm lg:text-base font-bold text-black hover:bg-neo-blue hover:text-white px-2 transition-all"
+            data-translate="nav-projects">Proyek</a>
+          <a href="#skills"
+            class="nav-link py-2 text-sm lg:text-base font-bold text-black hover:bg-neo-green px-2 transition-all"
+            data-translate="nav-skills">Keahlian</a>
+          <a href="#certificates"
+            class="nav-link py-2 text-sm lg:text-base font-bold text-black hover:bg-neo-purple hover:text-white px-2 transition-all"
+            data-translate="nav-certificates">Galery Fotografi</a>
+          <a href="#testimonial"
+            class="nav-link py-2 text-sm lg:text-base font-bold text-black hover:bg-neo-orange hover:text-white px-2 transition-all"
+            data-translate="nav-testimonial">Testimonial</a>
+          <a href="#contact"
+            class="nav-link py-2 text-sm lg:text-base font-bold text-black hover:bg-neo-pink hover:text-white px-2 transition-all"
+            data-translate="nav-contact">Kontak</a>
+        </nav>
+        <!-- Language Toggle Button -->
+        <div class="flex items-center gap-4">
+          <button id="lang-toggle" class="neo-btn px-4 py-2 bg-neo-purple text-white">
+            <span class="lang-text">EN</span>
+          </button>
+          <button id="mobile-menu-button" class="md:hidden text-black focus:outline-none">
+            <i class="fas fa-bars text-xl sm:text-2xl"></i>
+          </button>
+        </div>
+      </div>
+      <!-- Mobile Menu -->
+      <div id="mobile-menu"
+        class="md:hidden hidden mt-4 pb-4 space-y-2 bg-white border-t-2 border-black p-4 shadow-neo">
+        <a href="#home" class="block py-2 font-bold text-black hover:bg-neo-yellow px-2"
+          data-translate="nav-home">Home</a>
+        <a href="#about" class="block py-2 font-bold text-black hover:bg-neo-pink px-2 hover:text-white"
+          data-translate="nav-about">Tentang</a>
+        <a href="#projects" class="block py-2 font-bold text-black hover:bg-neo-blue px-2 hover:text-white"
+          data-translate="nav-projects">Proyek</a>
+        <a href="#skills" class="block py-2 font-bold text-black hover:bg-neo-green px-2"
+          data-translate="nav-skills">Keahlian</a>
+        <a href="#certificates" class="block py-2 font-bold text-black hover:bg-neo-purple px-2 hover:text-white"
+          data-translate="nav-certificates">Galery Fotografi</a>
+        <a href="#testimonial" class="block py-2 font-bold text-black hover:bg-neo-orange px-2 hover:text-white"
+          data-translate="nav-testimonial">Testimonial</a>
+        <a href="#contact" class="block py-2 font-bold text-black hover:bg-neo-pink px-2 hover:text-white"
+          data-translate="nav-contact">Kontak</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Enhanced Hero Section -->
+  <section id="home"
+    class="min-h-screen flex items-center justify-center relative overflow-hidden pt-20 border-b-8 border-black bg-neo-yellow">
+    <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#000_1px,transparent_1px)] [background-size:20px_20px]">
+    </div>
+    <div class="absolute inset-0">
+      <div
+        class="draggable-shape absolute top-16 left-5 md:top-1/3 md:left-1/4 w-16 h-16 md:w-32 md:h-32 bg-neo-pink border-4 border-black shadow-neo-lg animate-float hover:rotate-12 transition-transform duration-300 cursor-move z-0">
+      </div>
+      <div
+        class="draggable-shape absolute bottom-10 right-5 md:bottom-1/3 md:right-1/4 w-20 h-20 md:w-40 md:h-40 bg-neo-blue border-4 border-black shadow-neo-lg animate-float hover:-rotate-12 transition-transform duration-300 cursor-move z-0"
+        style="animation-delay: 1s"></div>
+      <div
+        class="draggable-shape absolute top-20 right-5 md:top-1/2 md:left-1/2 w-14 h-14 md:w-24 md:h-24 bg-neo-green border-4 border-black shadow-neo-lg animate-float hover:rotate-45 transition-transform duration-300 cursor-move z-0"
+        style="animation-delay: 2s"></div>
+    </div>
+    <div class="container mx-auto px-4 sm:px-6 z-30 text-center">
+      <p class="text-lg sm:text-xl md:text-2xl font-black mb-4 text-black uppercase tracking-widest animate-slide-in"
+        data-translate="hero-greeting">Halo, Saya</p>
+      <h1 class="text-4xl sm:text-6xl md:text-8xl font-black mb-6 text-black uppercase tracking-tighter">
+        <div class="relative inline-block animate-slide-down-rope">
+          <span
+            class="bg-white px-6 py-2 border-4 border-black shadow-neo-xl inline-block transform -rotate-2 hover:rotate-2 transition-transform duration-300 cursor-default relative"
+            id="dev-name">
+            <!-- Tali Gantungan (Ditingkatkan agar tidak putus) -->
+            <div class="absolute top-0 left-8 w-1 h-[1000px] bg-black -translate-y-full -z-10 hidden md:block"></div>
+            <div class="absolute top-0 right-8 w-1 h-[1000px] bg-black -translate-y-full -z-10 hidden md:block"></div>
+            <!-- Baut Gantungan -->
+            <div class="absolute top-1 left-7 w-3 h-3 bg-black rounded-full hidden md:block"></div>
+            <div class="absolute top-1 right-7 w-3 h-3 bg-black rounded-full hidden md:block"></div>
+            Muhammad Fajar
+          </span>
+        </div>
+      </h1>
+      <h2
+        class="text-2xl sm:text-3xl md:text-4xl font-black mb-8 text-black animate-slide-up bg-neo-pink text-white inline-block px-4 py-2 border-4 border-black shadow-neo transform rotate-1 hover:-rotate-1 transition-transform duration-300 cursor-default">
+        <span class="typing-text" id="dev-title">Admin Jaringan & Pengembang Web</span>
+      </h2>
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-6 mt-8 animate-slide-up">
+        <a href="#projects" class="neo-btn px-8 py-4 text-lg uppercase tracking-bold bg-neo-blue text-white"
+          data-translate="hero-view-work">Lihat Karya Saya</a>
+        <a href="https://wa.me/6285248867449?text=Halo%20Muhammad%20Fajar" target="_blank"
+          class="neo-btn px-8 py-4 text-lg uppercase tracking-bold bg-neo-green text-black">
+          <i class="fab fa-whatsapp mr-2"></i><span data-translate="hero-whatsapp">Chat di WhatsApp</span>
+        </a>
+        <div class="flex gap-4">
+          <a href="https://github/fajaarr1002-create" target="_blank"
+            class="neo-btn w-14 h-14 bg-neo-purple flex items-center justify-center text-white" title="GitHub">
+            <i class="fab fa-github text-2xl"></i>
+          </a>
+          <a href="https://www.instagram.com/snapshot.by.jar/" target="_blank"
+            class="neo-btn w-14 h-14 bg-neo-pink flex items-center justify-center text-white" title="Instagram">
+            <i class="fab fa-instagram text-2xl"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce-slow">
+      <a href="#about" class="text-black hover:text-neo-pink transition-colors">
+        <i class="fas fa-chevron-down text-4xl"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- Enhanced About Section -->
+  <section id="about" class="py-10 sm:py-16 md:py-20 scroll-mt-16">
+    <div class="container mx-auto px-4 sm:px-6">
+      <h2
+        class="text-3xl sm:text-4xl md:text-5xl font-black mb-10 text-center uppercase tracking-tighter reveal reveal-up">
+        <span
+          class="bg-neo-pink text-white px-6 py-2 border-4 border-black shadow-neo-lg inline-block transform rotate-2 hover:-rotate-2 transition-transform duration-300 cursor-default"
+          data-translate="about-title">Tentang Saya</span>
+      </h2>
+      <div class="flex flex-col lg:flex-row items-center justify-between gap-10 lg:gap-16">
+        <div class="lg:w-2/5 flex justify-center reveal reveal-left">
+          <div class="relative">
+            <div id="about-img-container"
+              class="w-64 h-64 sm:w-72 sm:h-72 overflow-hidden border-8 border-black shadow-neo-xl transform -rotate-3 cursor-pointer transition-transform duration-300 ease-in-out">
+              <img src="https://c.termai.cc/i165/RJne.jpg" alt="Foto Profil" class="w-full h-full object-cover object-center">
+            </div>
+            <div
+              class="absolute -bottom-4 -right-4 w-20 h-20 bg-neo-yellow border-4 border-black shadow-neo -z-10 animate-spin-slow">
+            </div>
+          </div>
+        </div>
+        <div class="lg:w-3/5 reveal reveal-right delay-200">
+          <h3 class="text-2xl sm:text-3xl font-black mb-4 uppercase tracking-tight">
+            Saya <span class="text-neo-blue">Muhammad Fajar</span>, <span data-translate="about-subtitle"
+              class="bg-neo-green px-2">Pelajar SMP &amp; Beginner photography</span>
+          </h3>
+          <p class="text-black font-medium mb-4 leading-relaxed text-sm border-l-4 border-neo-pink pl-4"
+            data-translate="about-desc2">
+            Halo, saya biasa dipanggil Pajar atau dikenal juga sebagai JarzGosling. Saya adalah pelajar SMP kelas 8 berusia 14 tahun yang memiliki minat besar di bidang digital dan kreativitas. Saya menyukai fotografi, khususnya street photography, karena bagi saya setiap momen memiliki cerita dan sudut pandang tersendiri untuk diabadikan. Selain itu, saya juga tertarik mempelajari basic programming, terutama membuat website sederhana dan animasi menggunakan CSS, serta mengeksplorasi basic web design dan prompt writing.
+          </p>
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 reveal reveal-up delay-400">
+            <div class="flex items-center p-3 bg-white border-3 border-black shadow-neo">
+              <i class="fas fa-map-marker-alt text-neo-pink mr-3 text-lg"></i>
+              <span class="text-xs sm:text-sm font-bold">Jawa Timur, Indonesia</span>
+            </div>
+            <div class="flex items-center p-3 bg-white border-3 border-black shadow-neo">
+              <i class="fas fa-envelope text-neo-blue mr-3 text-lg"></i>
+              <span class="text-xs sm:text-sm font-bold break-all">fajaarr1001@gmail.com</span>
+            </div>
+          </div>
+          <div class="flex flex-col sm:flex-row gap-6 mt-8">
+            <a href="#contact" class="neo-btn px-8 py-2 bg-white text-black uppercase text-sm">
+              <i class="fas fa-paper-plane mr-2"></i> <span data-translate="about-hire">Rekrut Saya</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Enhanced Projects Section with Carousel -->
+  <section id="projects" class="py-20 sm:py-32 border-y-8 border-black bg-neo-blue">
+    <div class="container mx-auto px-4 sm:px-6">
+      <div
+        class="flex flex-col md:flex-row justify-between items-center mb-12 gap-6 text-center md:text-left reveal reveal-up">
+        <h2 class="text-3xl sm:text-4xl md:text-6xl font-black uppercase tracking-tighter">
+          <span
+            class="bg-neo-yellow text-black px-8 py-3 border-4 border-black shadow-neo-lg inline-block transform -rotate-1 hover:rotate-1 transition-transform duration-300 cursor-default"
+            data-translate="projects-title">Proyek Saya</span>
+        </h2>
+        <div class="flex gap-4">
+          <button class="carousel-button-static prev" id="prevBtn" onclick="moveCarousel(-1)">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="carousel-button-static next" id="nextBtn" onclick="moveCarousel(1)">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+      <!-- Project Carousel -->
+      <div class="carousel-container relative reveal reveal-scale delay-200">
+        <div class="carousel-inner" id="projectCarousel">
+
+
+<!-- 1. Membuat AI Dengan Visual Basic -->
+          <div class="carousel-item">
+            <div
+              class="project-card rounded-xl overflow-hidden shadow-neuro-dark bg-dark-card glass-dark border border-pink-400/20 h-full">
+              <div class="relative aspect-video overflow-hidden bg-black border-b-4 border-black">
+                <img src="https://c.termai.cc/i131/Di9AiJ5.jpg" alt="Membuat AI Dengan Visual Basic" class="w-full h-full object-cover">
+              </div>
+              <div class="p-4 bg-white">
+                <h3 class="text-lg font-black mb-2 text-black uppercase tracking-tight">
+                  Membuat AI Dengan Visual Basic</h3>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. Membuat Web Portofolio Dengan Bantuan AI -->
+          <div class="carousel-item">
+            <div
+              class="project-card rounded-xl overflow-hidden shadow-neuro-dark bg-dark-card glass-dark border border-purple-400/20 h-full">
+              <div class="relative aspect-video overflow-hidden bg-black border-b-4 border-black">
+                <img src="https://c.termai.cc/i174/dLicta.jpg" alt="Membuat Web Portofolio Dengan Bantuan AI" class="w-full h-full object-cover">
+              </div>
+              <div class="p-4 bg-white">
+                <h3 class="text-lg font-black mb-2 text-black uppercase tracking-tight">
+                  Membuat Web Portofolio Dengan Bantuan AI</h3>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. Portofolio Gagal -->
+          <div class="carousel-item">
+            <div
+              class="project-card rounded-xl overflow-hidden shadow-neuro-dark bg-dark-card glass-dark border border-emerald-400/20 h-full">
+              <div class="relative aspect-video overflow-hidden bg-black border-b-4 border-black">
+                <img src="https://c.termai.cc/i153/i7ICoX9.jpg" alt="Portofolio Gagal" class="w-full h-full object-cover">
+              </div>
+              <div class="p-4 bg-white">
+                <h3 class="text-lg font-black mb-2 text-black uppercase tracking-tight">
+                  Portofolio Gagal Karna Memakai AI Jadul Atau Mungkin Prompt Kurang Optimal</h3>
+              </div>
+            </div>
+          </div>
+
+          
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Enhanced Skills Section -->
+  <section id="skills" class="py-20 sm:py-32 bg-neo-bg">
+    <div class="container mx-auto px-4 sm:px-6">
+      <h2
+        class="text-3xl sm:text-4xl md:text-6xl font-black mb-16 text-center uppercase tracking-tighter reveal reveal-up">
+        <span
+          class="bg-neo-green text-black px-8 py-3 border-4 border-black shadow-neo-lg inline-block transform rotate-1 hover:-rotate-1 transition-transform duration-300 cursor-default"
+          data-translate="nav-skills">Keahlian</span>
+      </h2>
+
+      <!-- Removed filter buttons and grid layout, replaced with marquee -->
+      <div class="skills-marquee-container">
+        <div class="skills-marquee">
+          <!-- Skills - First set -->
+          <div class="skills-marquee-item group hover:bg-[#E34F26] transition-all duration-300">
+            <div class="text-4xl mb-3 text-black group-hover:text-white transition-colors duration-300"><i class="fab fa-html5"></i></div>
+            <div class="font-black text-sm uppercase group-hover:text-white">HTML5</div>
+          </div>
+          <div class="skills-marquee-item group hover:bg-[#2c2c2c] transition-all duration-300">
+            <div class="text-4xl mb-3 text-black group-hover:text-white transition-colors duration-300"><i class="fas fa-camera"></i></div>
+            <div class="font-black text-sm uppercase group-hover:text-white">Photography</div>
+          </div>
+          <div class="skills-marquee-item group hover:bg-[#1572B6] transition-all duration-300">
+            <div class="text-4xl mb-3 text-black group-hover:text-white transition-colors duration-300"><i class="fab fa-css3-alt"></i></div>
+            <div class="font-black text-sm uppercase group-hover:text-white">CSS3</div>
+          </div>
+          <div class="skills-marquee-item group hover:bg-[#F7DF1E] transition-all duration-300">
+            <div class="text-4xl mb-3 text-black group-hover:text-black transition-colors duration-300"><i class="fab fa-js"></i></div>
+            <div class="font-black text-sm uppercase group-hover:text-black">JavaScript</div>
+          </div>
+          <!-- Duplicate for continuous loop -->
+          <div class="skills-marquee-item group hover:bg-[#E34F26] transition-all duration-300">
+            <div class="text-4xl mb-3 text-black group-hover:text-white transition-colors duration-300"><i class="fab fa-html5"></i></div>
+            <div class="font-black text-sm uppercase group-hover:text-white">HTML5</div>
+          </div>
+          <div class="skills-marquee-item group hover:bg-[#2c2c2c] transition-all duration-300">
+            <div class="text-4xl mb-3 text-black group-hover:text-white transition-colors duration-300"><i class="fas fa-camera"></i></div>
+            <div class="font-black text-sm uppercase group-hover:text-white">Photography</div>
+          </div>
+          <div class="skills-marquee-item group hover:bg-[#1572B6] transition-all duration-300">
+            <div class="text-4xl mb-3 text-black group-hover:text-white transition-colors duration-300"><i class="fab fa-css3-alt"></i></div>
+            <div class="font-black text-sm uppercase group-hover:text-white">CSS3</div>
+          </div>
+          <div class="skills-marquee-item group hover:bg-[#F7DF1E] transition-all duration-300">
+            <div class="text-4xl mb-3 text-black group-hover:text-black transition-colors duration-300"><i class="fab fa-js"></i></div>
+            <div class="font-black text-sm uppercase group-hover:text-black">JavaScript</div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- Gallery Detail Modal -->
+  <div id="certificateModal" class="modal">
+    <div class="modal-content max-w-md border-4 border-black shadow-neo-xl">
+      <div class="flex justify-between items-center mb-6 border-b-4 border-black pb-4">
+        <h3 class="text-2xl font-black text-black uppercase" data-translate="certificates-modal-title">Certificate
+          Details</h3>
+        <button onclick="closeCertificateModal()" class="text-gray-400 hover:text-white text-2xl">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="space-y-4">
+        <!-- Removed empty image placeholder area - images are shown in details only -->
+        <div>
+          <h4 id="certTitle" class="text-xl font-black text-black mb-2 uppercase"></h4>
+          <p id="certOrganization"
+            class="text-neo-blue font-bold text-sm mb-4 bg-neo-blue/10 inline-block px-2 border-2 border-black"></p>
+          <p id="certDescription" class="text-black font-medium text-sm leading-relaxed"></p>
+        </div>
+        <div class="flex gap-4 pt-6">
+          <button onclick="closeCertificateModal()" class="neo-btn flex-1 py-3 bg-neo-pink text-white uppercase"
+            data-translate="certificates-modal-close">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Added new Gallery Section -->
+  <section id="Galerry" class="py-20 sm:py-32 bg-neo-yellow border-y-8 border-black">
+    <div class="container mx-auto px-4 sm:px-6">
+      <h2
+        class="text-3xl sm:text-4xl md:text-6xl font-black mb-16 text-center uppercase tracking-tighter reveal reveal-up">
+        <span
+          class="bg-white text-black px-8 py-3 border-4 border-black shadow-neo-lg inline-block transform -rotate-1 hover:rotate-1 transition-transform duration-300 cursor-default"
+          data-translate="nav-certificates">Galery Fotografi</span>
+      </h2>
+
+      <!-- Galerry Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Gallery 1 -->
+        <div
+          class="bg-white border-4 border-black shadow-neo-lg p-6 hover:transform hover:-translate-y-2 transition-all duration-200 cursor-pointer reveal reveal-up delay-100">
+          <img src="https://c.termai.cc/i154/qWZVFj.jpg" alt="Canva Design" class="border-2 border-black mb-4 w-full object-cover">
+          <h3 class="text-black font-black text-sm uppercase tracking-tight">Canva Design</h3>
+        </div>
+
+        <!-- Gallery 2 -->
+        <div
+          class="bg-white border-4 border-black shadow-neo-lg p-6 hover:transform hover:-translate-y-2 transition-all duration-200 cursor-pointer reveal reveal-up delay-200">
+          <img src="https://c.termai.cc/i185/ZESEb.jpg" alt="Malam Yang Mengawasi" class="border-2 border-black mb-4 w-full object-cover">
+          <h3 class="text-black font-black text-sm uppercase tracking-tight">Malam Yang Mengawasi</h3>
+        </div>
+
+        <!-- Gallery 3 -->
+        <div
+          class="bg-white border-4 border-black shadow-neo-lg p-6 hover:transform hover:-translate-y-2 transition-all duration-200 cursor-pointer reveal reveal-up delay-300">
+          <img src="https://c.termai.cc/i170/NMHhHo.jpg" alt="Warna" class="border-2 border-black mb-4 w-full object-cover">
+          <h3 class="text-black font-black text-sm uppercase tracking-tight">Warna</h3>
+        </div>
+
+        <!-- Gallery 4 -->
+        <div
+          class="bg-white border-4 border-black shadow-neo-lg p-6 hover:transform hover:-translate-y-2 transition-all duration-200 cursor-pointer reveal reveal-up delay-400">
+          <img src="https://c.termai.cc/i159/pPt.jpg" alt="Menoleh Sebelum Pergi" class="border-2 border-black mb-4 w-full object-cover">
+          <h3 class="text-black font-black text-sm uppercase tracking-tight">Menoleh Sebelum Pergi</h3>
+        </div>
+
+        <!-- Gallery 5 -->
+        <div
+          class="bg-white border-4 border-black shadow-neo-lg p-6 hover:transform hover:-translate-y-2 transition-all duration-200 cursor-pointer reveal reveal-up delay-500">
+          <img src="https://c.termai.cc/i132/wgK.jpg" alt="Tumbuh Dalam Keheningan" class="border-2 border-black mb-4 w-full object-cover">
+          <h3 class="text-black font-black text-sm uppercase tracking-tight">Tumbuh Dalam Keheningan</h3>
+        </div>
+
+        <!-- Gallery 6 -->
+        <div
+          class="bg-white border-4 border-black shadow-neo-lg p-6 hover:transform hover:-translate-y-2 transition-all duration-200 cursor-pointer reveal reveal-up delay-500">
+          <img src="https://c.termai.cc/i159/bjUAO.jpg" alt="Mengejar Cahaya" class="border-2 border-black mb-4 w-full object-cover">
+          <h3 class="text-black font-black text-sm uppercase tracking-tight">Mengejar Cahaya</h3>
+        </div>
+
+        <!-- Gallery 7 -->
+        <div
+          class="bg-white border-4 border-black shadow-neo-lg p-6 hover:transform hover:-translate-y-2 transition-all duration-200 cursor-pointer reveal reveal-up delay-500">
+          <img src="https://c.termai.cc/i147/rdhtnq.jpg" alt="Kecepatan" class="border-2 border-black mb-4 w-full object-cover">
+          <h3 class="text-black font-black text-sm uppercase tracking-tight">Kecepatan</h3>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Enhanced Testimonials Section -->
+  <section id="testimonial" class="py-20 sm:py-32 bg-neo-pink border-b-8 border-black">
+    <div class="container mx-auto px-4 sm:px-6">
+      <h2
+        class="text-3xl sm:text-4xl md:text-6xl font-black mb-16 text-center uppercase tracking-tighter reveal reveal-up">
+        <span
+          class="bg-white text-black px-8 py-3 border-4 border-black shadow-neo-lg inline-block transform rotate-1 hover:-rotate-1 transition-transform duration-300 cursor-default"
+          data-translate="testimonial-title">What People Say</span>
+      </h2>
+
+      <!-- Testimonial Cards Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+        <!-- Testimonial 1 -->
+        <div class="testimonial-card p-6 sm:p-8 flex flex-col h-full bg-white reveal reveal-up delay-100">
+          <div class="flex items-center gap-2 mb-6">
+            <div class="flex text-black">
+              <i class="fas fa-star text-lg"></i>
+              <i class="fas fa-star text-lg"></i>
+              <i class="fas fa-star text-lg"></i>
+              <i class="fas fa-star text-lg"></i>
+              <i class="fas fa-star text-lg"></i>
+            </div>
+            <span class="ml-2 text-sm font-black">5.0</span>
+          </div>
+
+          <p class="text-black mb-8 italic font-bold leading-relaxed text-sm sm:text-base flex-grow text-justify border-l-4 border-neo-yellow pl-4"
+            data-translate="testi1-text">
+            “your portfolio is actually so cool 😭 the layout looks clean, the photos feel meaningful, and everything matches really well. it doesn’t look random at all, it has its own vibe and style. you can really tell you put effort into it.”
+          </p>
+
+          <div class="flex items-center pt-4 border-t-2 border-black">
+            <img src="https://c.termai.cc/i188/N6aQx.jpg" alt="Ishowspeed" class="w-12 h-12 border-2 border-black object-cover mr-3">
+            <div>
+              <h4 class="font-black text-black text-sm sm:text-base">Ishowspeed</h4>
+              <p class="text-xs sm:text-sm font-bold text-gray-600">Content creatorr</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="testimonial-card p-6 sm:p-8 flex flex-col h-full bg-white reveal reveal-up delay-200">
+          <div class="flex items-center gap-2 mb-6">
+            <div class="flex text-black">
+              <i class="fas fa-star text-lg"></i>
+              <i class="fas fa-star text-lg"></i>
+              <i class="fas fa-star text-lg"></i>
+              <i class="fas fa-star text-lg"></i>
+              <i class="fas fa-star text-lg"></i>
+            </div>
+            <span class="ml-2 text-sm font-black">5.0</span>
+          </div>
+
+          <p class="text-black mb-8 italic font-bold leading-relaxed text-sm sm:text-base flex-grow border-l-4 border-neo-blue pl-4"
+            data-translate="testi2-text">
+            "The AI chatbot PAJAR developed for us has revolutionized our customer service. His understanding of both
+            frontend and backend technologies is impressive."
+          </p>
+
+          <div class="flex items-center pt-4 border-t-2 border-black">
+            <img
+              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+              alt="David Kim" class="w-12 h-12 border-2 border-black object-cover mr-3">
+            <div>
+              <h4 class="font-black text-black text-sm sm:text-base">David Kim</h4>
+              <p class="text-xs sm:text-sm font-bold text-gray-600">Founder, AI Solutions</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="testimonial-card p-6 sm:p-8 flex flex-col h-full bg-white reveal reveal-up delay-300">
+          <div class="flex items-center gap-2 mb-6">
+            <div class="flex text-black">
+              <i class="fas fa-star text-lg"></i>
+              <i class="fas fa-star text-lg"></i>
+              <i class="fas fa-star text-lg"></i>
+              <i class="fas fa-star text-lg"></i>
+              <i class="fas fa-star text-lg"></i>
+            </div>
+            <span class="ml-2 text-sm font-black">5.0</span>
+          </div>
+
+          <p class="text-black mb-8 italic font-bold leading-relaxed text-sm sm:text-base flex-grow border-l-4 border-neo-green pl-4"
+            data-translate="testi3-text">
+            "YOUR PHOTOGRAPHY IS SO COOL FAJAR."
+          </p>
+
+          <div class="flex items-center pt-4 border-t-2 border-black">
+            <img
+              src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80"
+              alt="Lisa Lna" class="w-12 h-12 border-2 border-black object-cover mr-3">
+            <div>
+              <h4 class="font-black text-black text-sm sm:text-base">Lisa Lna</h4>
+              <p class="text-xs sm:text-sm font-bold text-gray-600">Photograher Pro</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonial Stats -->
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-6 reveal reveal-up delay-400">
+        <div class="neo-card text-center p-6 bg-neo-yellow">
+          <div class="text-3xl sm:text-4xl font-black text-black mb-2 tracking-tighter">2038</div>
+          <div class="text-xs sm:text-sm font-bold uppercase text-black" data-translate="stat-happy-clients">Gambar Dipotret / Photographed Img</div>
+        </div>
+
+        <div class="neo-card text-center p-6 bg-neo-green">
+          <div class="text-3xl sm:text-4xl font-black text-black mb-2 tracking-tighter">80%</div>
+          <div class="text-xs sm:text-sm font-bold uppercase text-black" data-translate="stat-success-rate">Tingkat Keberhasilan / Success Rate</div>
+        </div>
+
+        <div class="neo-card text-center p-6 bg-neo-blue text-white">
+          <div class="text-3xl sm:text-4xl font-black mb-2 tracking-tighter">3</div>
+          <div class="text-xs sm:text-sm font-bold uppercase" data-translate="stat-projects">Proyek Selesai / Project Completed</div>
+        </div>
+
+        <div class="neo-card text-center p-6 bg-white">
+          <div class="text-3xl sm:text-4xl font-black text-black mb-2 tracking-tighter">5</div>
+          <div class="text-xs sm:text-sm font-bold uppercase text-black" data-translate="stat-rating">Rating</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Enhanced Contact Section -->
+  <section id="contact" class="py-20 sm:py-32 bg-neo-green border-y-8 border-black">
+    <div class="container mx-auto px-4 sm:px-6">
+      <h2
+        class="text-3xl sm:text-4xl md:text-6xl font-black mb-16 text-center uppercase tracking-tighter reveal reveal-up">
+        <span
+          class="bg-white text-black px-8 py-3 border-4 border-black shadow-neo-lg inline-block transform -rotate-1 hover:rotate-1 transition-transform duration-300 cursor-default"
+          data-translate="nav-contact">Get In Touch</span>
+      </h2>
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+        <div class="reveal reveal-left">
+          <h3 class="text-2xl sm:text-3xl font-black mb-8 uppercase tracking-tight" data-translate="contact-info-title">
+            Contact Information</h3>
+          <div class="space-y-6">
+            <div class="flex items-start p-6 bg-white border-4 border-black shadow-neo">
+              <div
+                class="w-12 h-12 border-2 border-black bg-neo-pink flex items-center justify-center mr-4 flex-shrink-0">
+                <i class="fas fa-map-marker-alt text-white"></i>
+              </div>
+              <div>
+                <h4 class="text-lg font-black mb-1 uppercase" data-translate="contact-location-title">
+                  Location</h4>
+                <p class="text-black font-bold">Jawa Timur, Indonesia</p>
+              </div>
+            </div>
+            <div class="flex items-start p-6 bg-white border-4 border-black shadow-neo">
+              <div
+                class="w-12 h-12 border-2 border-black bg-neo-blue flex items-center justify-center mr-4 flex-shrink-0">
+                <i class="fas fa-envelope text-white"></i>
+              </div>
+              <div>
+                <h4 class="text-lg font-black mb-1 uppercase" data-translate="contact-email-title">Email
+                </h4>
+                <p class="text-black font-bold break-all">fajaarr1001@gmail.com</p>
+              </div>
+            </div>
+            <div class="flex items-start p-6 bg-white border-4 border-black shadow-neo">
+              <div
+                class="w-12 h-12 border-2 border-black bg-neo-yellow flex items-center justify-center mr-4 flex-shrink-0">
+                <i class="fas fa-phone text-black"></i>
+              </div>
+              <div>
+                <h4 class="text-lg font-black mb-1 uppercase" data-translate="contact-phone-title">Phone
+                </h4>
+                <p class="text-black font-bold">6285708557587</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="reveal reveal-right delay-200">
+          <h3 class="text-2xl sm:text-3xl font-black mb-8 uppercase tracking-tight"
+            data-translate="contact-message-title">Send Me a Message</h3>
+          <form id="emailForm" class="space-y-6">
+            <div class="relative">
+              <input type="text" id="name" name="name"
+                class="form-input w-full px-4 py-4 bg-white border-4 border-black font-bold focus:outline-none shadow-neo transition-all duration-200 text-black"
+                placeholder=" " required="">
+              <label for="name" class="floating-label absolute left-4 top-4 text-gray-500 font-bold uppercase text-xs"
+                data-translate="form-name">Your Name</label>
+            </div>
+            <div class="relative">
+              <input type="email" id="email" name="email"
+                class="form-input w-full px-4 py-4 bg-white border-4 border-black font-bold focus:outline-none shadow-neo transition-all duration-200 text-black"
+                placeholder=" " required="">
+              <label for="email" class="floating-label absolute left-4 top-4 text-gray-500 font-bold uppercase text-xs"
+                data-translate="form-email">Your Email</label>
+            </div>
+            <div class="relative">
+              <input type="text" id="subject" name="subject"
+                class="form-input w-full px-4 py-4 bg-white border-4 border-black font-bold focus:outline-none shadow-neo transition-all duration-200 text-black"
+                placeholder=" " required="">
+              <label for="subject"
+                class="floating-label absolute left-4 top-4 text-gray-500 font-bold uppercase text-xs"
+                data-translate="form-subject">Subject</label>
+            </div>
+            <div class="relative">
+              <textarea id="message" name="message" rows="5"
+                class="form-input w-full px-4 py-4 bg-white border-4 border-black font-bold focus:outline-none shadow-neo transition-all duration-200 text-black"
+                placeholder=" " required=""></textarea>
+              <label for="message"
+                class="floating-label absolute left-4 top-4 text-gray-500 font-bold uppercase text-xs"
+                data-translate="form-message">Your Message</label>
+            </div>
+            <button type="submit" class="neo-btn w-full py-4 bg-black text-white text-xl uppercase tracking-widest">
+              <i class="fas fa-paper-plane mr-2"></i> Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Enhanced Footer -->
+  <footer class="py-12 bg-black text-white border-t-8 border-black">
+    <div class="container mx-auto px-4 sm:px-6">
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <div class="mb-8 md:mb-0">
+          <a href="#" class="text-2xl sm:text-3xl font-black uppercase tracking-tighter">
+            MUHAMMAD <span class="bg-neo-yellow text-black px-2 border-2 border-white">FAJAR</span>
+          </a>
+        </div>
+        <div class="flex space-x-6 mb-8 md:mb-0">
+          <a href="https://github.com/fajaarr1002-create" target="_blank"
+            class="neo-btn w-12 h-12 bg-neo-blue flex items-center justify-center text-white border-white">
+            <i class="fab fa-github text-xl"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/muhammad-fajar-4833923a0/" target="_blank"
+            class="neo-btn w-12 h-12 bg-neo-purple flex items-center justify-center text-white border-white">
+            <i class="fab fa-linkedin-in text-xl"></i>
+          </a>
+          <a href="https://www.instagram.com/snapshot.by.jar/" target="_blank"
+            class="neo-btn w-12 h-12 bg-neo-pink flex items-center justify-center text-white border-white">
+            <i class="fab fa-instagram text-xl"></i>
+          </a>
+          <a href="https://wa.me/6285248867449" target="_blank"
+            class="neo-btn w-12 h-12 bg-neo-green flex items-center justify-center text-black border-white">
+            <i class="fab fa-whatsapp text-xl"></i>
+          </a>
+        </div>
+        <div class="text-white font-bold uppercase text-xs">
+          © <span id="current-year">2026</span> MUHAMMAD FAJAR
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Enhanced JavaScript -->
+  <script>
+    const translations = {
+      id: {
+        "nav-home": "Home",
+        "nav-about": "Tentang",
+        "nav-projects": "Proyek",
+        "nav-skills": "Keahlian",
+        "nav-github": "Github",
+        "nav-certificates": "Galery Fotografi",
+        "nav-testimonial": "Kata Orang",
+        "nav-contact": "Kontak",
+        "hero-greeting": "Halo, Saya",
+        "hero-view-work": "Lihat Karya Saya",
+        "hero-whatsapp": "Chat di WhatsApp",
+        "about-title": "Tentang Saya",
+        "about-subtitle": "Pelajar SMP & Beginner Photography",
+        "about-desc2": "Halo, saya biasa dipanggil Pajar atau dikenal juga sebagai JarzGosling. Saya adalah pelajar SMP kelas 8 berusia 14 tahun yang memiliki minat besar di bidang digital dan kreativitas. Saya menyukai fotografi, khususnya street photography, karena bagi saya setiap momen memiliki cerita dan sudut pandang tersendiri untuk diabadikan.",
+        "about-hire": "Rekrut Saya",
+        "projects-title": "Proyek Saya",
+        "badge-new": "Baru",
+        "badge-portfolio": "DonghuaWatch",
+        "badge-website": "Website",
+        "badge-network": "Jaringan",
+        "badge-game": "Game",
+        "project1-desc": "Chatbot cerdas bertenaga AI yang dirancang untuk berinteraksi secara alami dengan pengguna menggunakan pemrosesan bahasa alami.",
+        "project2-title": "Sistem Informasi Kurikulum OBE",
+        "project2-desc": "Sistem Informasi Desain Kurikulum OBE yang dikembangkan untuk Poliban untuk mendukung pengembangan kurikulum yang selaras dengan prinsip OBE.",
+        "project3-title": "Desain LAN Skala Besar Cisco",
+        "project3-desc": "Desain jaringan menggunakan Cisco Packet Tracer untuk optimasi lingkungan korporat dengan VLAN dan protokol routing.",
+        "project4-title": "Permainan Ular Tangga",
+        "project4-desc": "Permainan papan klasik berbasis web dengan fitur interaktif, memungkinkan dua pemain untuk bermain dengan animasi yang mulus.",
+        "project5-title": "SIMA BPKPAD Kota Banjarmasin",
+        "project5-desc": "Sistem manajemen arsip elektronik untuk BPKPAD yang mengoptimalkan penyimpanan, pengambilan, dan keamanan dokumen.",
+        "project6-title": "Pengaturan Load Balance Mikrotik",
+        "project6-desc": "Implementasi load balancing multi-WAN dengan Mikrotik RouterOS untuk optimasi bandwidth dan failover otomatis.",
+        "project7-title": "Landing Page Cafe - Brew Haven",
+        "project7-desc": "Landing page responsif modern untuk kedai kopi dengan tampilan menu, lokasi, dan panggilan aksi yang efektif.",
+        "project8-desc": "Aplikasi web dengan AI untuk meningkatkan resolusi gambar hingga 4x menggunakan neural network Real-ESRGAN dengan hasil profesional.",
+        "project9-title": "Gilmar Idea",
+        "project9-desc": "Web berita digital yang menyajikan informasi terkini bagi mahasiswa STIE Pancasetia.",
+        "project10-title": "SIP STIE Pancasetia",
+        "project10-desc": "Sistem Informasi Terpadu STIE Pancasetia untuk manajemen data akademik yang efisien.",
+        "project11-title": "LPPM STIE Pancasetia",
+        "project11-desc": "Portal resmi Lembaga Penelitian dan Pengabdian kepada Masyarakat STIE Pancasetia.",
+        "project12-title": "Siperu",
+        "project12-desc": "Sistem Informasi Peminjaman Ruangan untuk mengelola reservasi fasilitas kampus secara otomatis.",
+        "project13-title": "DonghuaWatch Komik",
+        "project13-desc": "Platform baca komik online dengan koleksi lengkap dan antarmuka yang ramah pengguna.",
+        "project-api-desc": "RESTful API untuk mengambil data streaming Donghua dengan fitur pencarian dan caching yang efisien.",
+        "project-donghuawatch-desc": "Situs streaming Donghua dengan subtitle Indonesia yang cepat dan responsif.",
+        "badge-ai": "AI",
+        "badge-backend": "Backend",
+        "donghuawatchs": "Kunjungi",
+        "btn-details": "Detail",
+        "btn-source": "Source Code",
+        "btn-code": "Kode",
+        "btn-code2": "Kunjungi",
+        "btn-file": "File",
+        "skills-technical": "Keahlian Teknis",
+        "contact-info-title": "Informasi Kontak",
+        "contact-location-title": "Lokasi",
+        "contact-email-title": "Email",
+        "contact-phone-title": "Telepon",
+        "contact-whatsapp-title": "WhatsApp",
+        "contact-message-title": "Kirim Pesan",
+        "form-name": "Nama Anda",
+        "form-email": "Email Anda",
+        "form-subject": "Subjek",
+        "form-message": "Pesan Anda",
+        "btn-send-message": "Kirim Pesan",
+        "github_title": "Statistik GitHub",
+        "github_repos": "Total Repo",
+        "github_stars": "Bintang",
+        "github_contrib": "Kontribusi",
+        "github_followers": "Pengikut",
+        "github_public": "",
+        "github_received": "Diterima di proyek",
+        "github_lastyear": "(sampai kini)",
+        "github_followers_desc": "Pengikut GitHub",
+        "certificates-modal-title": "Detail Sertifikat",
+        "certificates-modal-close": "Tutup",
+        "testimonial-title": "Apa Kata Orang",
+        "testi1-text": "“keren bgt bg portofolio lu 😭 tampilannya clean, fotonya juga berasa punya cerita masing masing. warna sama layoutnya pas, ga rame tapi tetep enak diliat. keliatan niat dan ada ciri khasnya sendiri, bukan sekadar tempel karya doang”",
+        "testi2-text": "“Chatbot AI yang dikembangkan Pajar untuk kami telah merevolusi layanan pelanggan kami. Pemahamannya tentang teknologi frontend dan backend sangat mengesankan.”",
+        "testi3-text": "“KEREN BANGET FOTOGRAFI KAMU FAJAR.”",
+        "stat-happy-clients": "Gambar dipotret",
+        "stat-success-rate": "Tingkat Keberhasilan %",
+        "stat-projects": "Proyek Selesai",
+        "stat-rating": "Rating Rata-rata",
+        "github-less": "Sedikit",
+        "github-more": "Banyak",
+        "footer-rights": "Hak cipta dilindungi.",
+        "cert5-title": "BNSP Programmer",
+        "cert5-desc": "Sertifikasi Kompetensi BNSP untuk skema Programmer.",
+        "cert6-title": "Belajar Dasar-dasar AI",
+        "cert6-desc": "Sertifikasi penyelesaian kursus Belajar Dasar-dasar AI.",
+      },
+      en: {
+        "nav-home": "Home",
+        "nav-about": "About",
+        "nav-projects": "Projects",
+        "nav-skills": "Skills",
+        "nav-github": "Github",
+        "nav-certificates": "Galeri Fotografi",
+        "nav-testimonial": "Poople Say",
+        "nav-contact": "Contact",
+        "hero-greeting": "Hello, I'm",
+        "hero-view-work": "View My Work",
+        "hero-whatsapp": "Chat on WhatsApp",
+        "about-title": "About Me",
+        "about-subtitle": "Pelajar SMP",
+        "about-desc2": "Hello, my name is Pajar, also known as JarzGosling. I am a 14-year-old 8th grade junior high school student with a strong interest in digital creativity and technology. I enjoy photography, especially street photography, because I believe every moment has its own story and perspective worth capturing. Besides photography, I am also interested in learning basic programming, especially creating simple websites and CSS animations, while exploring basic web design and prompt writing..",
+        "about-hire": "Hire Me",
+        "projects-title": "My Projects",
+        "badge-new": "New",
+        "badge-portfolio": "DonghuaWatch",
+        "badge-website": "Website",
+        "badge-network": "Network",
+        "badge-game": "Game",
+        "project1-desc": "An intelligent AI-powered chatbot designed to interact naturally with users using natural language processing.",
+        "project2-title": "Curriculum Information System OBE",
+        "project2-desc": "OBE Curriculum Design Information System developed for Poliban to support curriculum development aligned with OBE principles.",
+        "project3-title": "Large-Scale LAN Design Cisco",
+        "project3-desc": "Network design using Cisco Packet Tracer for corporate environment optimization with VLAN and routing protocols.",
+        "project4-title": "Snakes and Ladders Game",
+        "project4-desc": "Web-based classic board game with interactive features, allowing two players to play with smooth animations.",
+        "project5-title": "SIMA BPKPAD Banjarmasin City",
+        "project5-desc": "Electronic archive management system for BPKPAD optimizing document storage, retrieval, and security.",
+        "project6-title": "Load Balance Mikrotik Settings",
+        "project6-desc": "Multi-WAN load balancing implementation with Mikrotik RouterOS for bandwidth optimization and automatic failover.",
+        "project7-title": "Landing Page Cafe - Brew Haven",
+        "project7-desc": "Modern responsive landing page for coffee shop with menu showcase, location, and effective call-to-action.",
+        "project8-title": "AI Image Upscaler",
+        "project8-desc": "Web application with AI to upscale images up to 4x using Real-ESRGAN neural network with professional results.",
+        "project9-title": "Gilmar Idea",
+        "project9-desc": "Digital news web providing the latest information for STIE Pancasetia students.",
+        "project10-title": "SIP STIE Pancasetia",
+        "project10-desc": "STIE Pancasetia Integrated Information System for efficient academic data management.",
+        "project11-title": "LPPM STIE Pancasetia",
+        "project11-desc": "Official portal of STIE Pancasetia Research and Community Service Institute.",
+        "project12-title": "Siperu",
+        "project12-desc": "Room Booking Information System for automated campus facility reservation management.",
+        "project13-title": "DonghuaWatch Komik",
+        "project13-desc": "Online comic reading platform with a complete collection and user-friendly interface.",
+        "project-api-desc": "RESTful API to fetch Donghua streaming data with efficient search and caching features.",
+        "project-donghuawatch-desc": "Donghua streaming site with fast and responsive Indonesian subtitles.",
+        "badge-ai": "AI",
+        "badge-backend": "Backend",
+        "donghuawatchs": "Visit",
+        "btn-details": "Details",
+        "btn-source": "Source Code",
+        "btn-code": "Code",
+        "btn-code2": "Visit",
+        "btn-file": "File",
+        "skills-technical": "Technical Skills",
+        "contact-info-title": "Contact Information",
+        "contact-location-title": "Location",
+        "contact-email-title": "Email",
+        "contact-phone-title": "Phone",
+        "contact-whatsapp-title": "WhatsApp",
+        "contact-message-title": "Send Me a Message",
+        "form-name": "Your Name",
+        "form-email": "Your Email",
+        "form-subject": "Subject",
+        "form-message": "Your Message",
+        "btn-send-message": "Send Message",
+        "github_title": "GitHub Statistics",
+        "github_repos": "Total Repo",
+        "github_stars": "Stars",
+        "github_contrib": "Contributions",
+        "github_followers": "Followers",
+        "github_public": "",
+        "github_received": "Received on projects",
+        "github_lastyear": "(until now)",
+        "github_followers_desc": "GitHub followers",
+        "certificates-modal-title": "Certificate Details",
+        "certificates-modal-close": "Close",
+        "testimonial-title": "What People Say",
+        "testi1-text": "“your portfolio is actually so cool 😭 the layout looks clean, the photos feel meaningful, and everything matches really well. it doesn’t look random at all, it has its own vibe and style. you can really tell you put effort into it.”",
+        "testi2-text": "“The AI chatbot Pajar developed for us has revolutionized our customer service. His understanding of both frontend and backend technologies is impressive.”",
+        "testi3-text": "“YOUR PHOTOGRAPHY IS SO COOL BRUUHH.”",
+        "stat-happy-clients": "Photo Results",
+        "stat-success-rate": "Success Rate %",
+        "stat-projects": "Projects Completed",
+        "stat-rating": "Average Rating",
+        "github-less": "Less",
+        "github-more": "More",
+        "footer-rights": "All rights reserved.",
+        "cert5-title": "BNSP Programmer",
+        "cert5-desc": "BNSP Competency Certification for Programmer scheme.",
+        "cert6-title": "AI Basics",
+        "cert6-desc": "Completion certification for AI Basics course.",
+      }
+    };
+
+    let currentLang = 'id';
+    let currentCarouselIndex = 0;
+    let activeFilterButton = null;
+
+    document.getElementById('lang-toggle').addEventListener('click', function () {
+      currentLang = currentLang === 'id' ? 'en' : 'id';
+      document.querySelector('.lang-text').textContent = currentLang === 'id' ? 'EN' : 'ID';
+      updatePageTranslations();
+    });
+
+    function updatePageTranslations() {
+      const transKeys = document.querySelectorAll('[data-translate]');
+      transKeys.forEach(el => {
+        const key = el.getAttribute('data-translate');
+        if (translations[currentLang] && translations[currentLang][key]) {
+          el.textContent = translations[currentLang][key];
+        }
+      });
+      const titleText = currentLang === 'id' ? "Pengembang Web" : "Web Developer";
+      typeEffect(document.getElementById("dev-title"), titleText, 100, 0);
+    }
+
+    function moveCarousel(direction) {
+      const carousel = document.getElementById('projectCarousel');
+      const items = carousel.querySelectorAll('.carousel-item');
+      const itemCount = items.length;
+
+      const itemsPerView = window.innerWidth <= 768 ? 1 : 3; // mobile:1, desktop:3
+
+      currentCarouselIndex += direction;
+
+      if (currentCarouselIndex > itemCount - itemsPerView) {
+        currentCarouselIndex = 0;
+      } else if (currentCarouselIndex < 0) {
+        currentCarouselIndex = itemCount - itemsPerView;
+      }
+
+      const offset = -currentCarouselIndex * (100 / itemsPerView);
+      carousel.style.transform = `translateX(${offset}%)`;
+    }
+
+    function showCertificateDetail(id, title, organization, year, image, description) {
+      // Dynamically create image element if needed, or use pre-defined placeholder
+      // For this example, we assume image paths are correct and will be displayed if provided.
+      const certImageElement = document.getElementById('certificateModal').querySelector('#certImage');
+      if (certImageElement) {
+        certImageElement.src = image;
+        certImageElement.alt = title + ' Certificate';
+        certImageElement.style.display = 'block'; // Ensure it's visible
+      } else {
+        // If the modal structure is changed and #certImage isn't there, handle accordingly.
+        // For now, we log a warning or adjust the modal structure.
+        console.warn("Image element for certificate not found in modal.");
+      }
+      document.getElementById('certTitle').textContent = title;
+      document.getElementById('certOrganization').textContent = organization + ' - ' + year;
+      document.getElementById('certDescription').textContent = description;
+      document.getElementById('certificateModal').classList.add('show');
+    }
+
+
+    function closeCertificateModal() {
+      document.getElementById('certificateModal').classList.remove('show');
+      // Optionally reset image source or hide it when modal closes
+      const certImageElement = document.getElementById('certificateModal').querySelector('#certImage');
+      if (certImageElement) {
+        certImageElement.src = ''; // Clear source
+        certImageElement.style.display = 'none'; // Hide element
+      }
+    }
+
+    const mobileMenuButton = document.getElementById("mobile-menu-button");
+    const mobileMenu = document.getElementById("mobile-menu");
+    if (mobileMenuButton) {
+      mobileMenuButton.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+      });
+    }
+
+    function typeEffect(element, text, speed = 100, delay = 0) {
+      if (!element) return;
+      setTimeout(() => {
+        element.textContent = "";
+        let i = 0;
+        const timer = setInterval(() => {
+          if (i < text.length) {
+            element.textContent += text.charAt(i);
+            i++;
+          } else {
+            clearInterval(timer);
+          }
+        }, speed);
+      }, delay);
+    }
+
+    const emailForm = document.getElementById("emailForm");
+    if (emailForm) {
+      emailjs.init("MkDTippaiZtJd2cUV"); // Replace with your actual EmailJS User ID
+      emailForm.addEventListener("submit", function (event) {
+        event.preventDefault(); // Prevent default form submission
+
+        const serviceID = "service_rw9xkqw"; // Replace with your Service ID
+        const templateID = "template_z37v5ih"; // Replace with your Template ID
+
+        emailjs.sendForm(serviceID, templateID, this)
+          .then(function (response) {
+            alert(currentLang === 'id' ? "Pesan berhasil dikirim!" : "Message sent successfully!");
+            emailForm.reset();
+          }, function (error) {
+            alert(currentLang === 'id' ? "Terjadi kesalahan: " + error.text : "Error occurred: " + error.text);
+          });
+      });
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+      anchor.addEventListener("click", function (e) {
+        e.preventDefault();
+        const targetId = this.getAttribute("href");
+        const target = document.querySelector(targetId);
+        if (target) {
+          target.scrollIntoView({ behavior: "smooth", block: "start" });
+          if (mobileMenu && !mobileMenu.classList.contains("hidden")) {
+            mobileMenu.classList.add("hidden");
+          }
+        }
+      });
+    });
+
+    document.getElementById("current-year").textContent = new Date().getFullYear();
+    updatePageTranslations();
+
+    // Add incremental rotation to about image
+    let currentAngle = -3;
+    let hoverOffset = 0;
+    const aboutImgContainer = document.getElementById('about-img-container');
+
+    function updateAboutImageTransform() {
+      aboutImgContainer.style.transform = `rotate(${currentAngle + hoverOffset}deg)`;
+    }
+
+    if (aboutImgContainer) {
+      aboutImgContainer.addEventListener('click', () => {
+        currentAngle += 20; // Rotate slightly more on each click
+        updateAboutImageTransform();
+      });
+
+      aboutImgContainer.addEventListener('mouseenter', () => {
+        hoverOffset = 8; // Slight rotation shift on hover
+        updateAboutImageTransform();
+      });
+
+      aboutImgContainer.addEventListener('mouseleave', () => {
+        hoverOffset = 0; // Return to current base angle
+        updateAboutImageTransform();
+      });
+    }
+
+    // Scroll Reveal implementation
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('active');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+    // Drag and Drop for Hero Shapes
+    const draggableShapes = document.querySelectorAll('.draggable-shape');
+    draggableShapes.forEach(shape => {
+      let isDragging = false;
+      let offsetX, offsetY;
+
+      const startDrag = (e) => {
+        isDragging = true;
+        shape.classList.add('dragging');
+
+        const clientX = e.type === 'touchstart' ? e.touches[0].clientX : e.clientX;
+        const clientY = e.type === 'touchstart' ? e.touches[0].clientY : e.clientY;
+
+        const rect = shape.getBoundingClientRect();
+        offsetX = clientX - rect.left;
+        offsetY = clientY - rect.top;
+      };
+
+      const doDrag = (e) => {
+        if (!isDragging) return;
+        e.preventDefault();
+
+        const clientX = e.type === 'touchmove' ? e.touches[0].clientX : e.clientX;
+        const clientY = e.type === 'touchmove' ? e.touches[0].clientY : e.clientY;
+
+        // Use fixed positioning during drag or adjust style top/left
+        shape.style.position = 'fixed';
+        shape.style.left = `${clientX - offsetX}px`;
+        shape.style.top = `${clientY - offsetY}px`;
+        shape.style.bottom = 'auto';
+        shape.style.right = 'auto';
+      };
+
+      const stopDrag = () => {
+        isDragging = false;
+        shape.classList.remove('dragging');
+      };
+
+      shape.addEventListener('mousedown', startDrag);
+      window.addEventListener('mousemove', doDrag);
+      window.addEventListener('mouseup', stopDrag);
+
+      shape.addEventListener('touchstart', startDrag, { passive: false });
+      window.addEventListener('touchmove', doDrag, { passive: false });
+      window.addEventListener('touchend', stopDrag);
+    });
+
+    // </CHANGE> Generate GitHub contribution activity graph
+    function generateContributionGraph() {
+      const graph = document.getElementById('contributionGraph');
+      if (!graph) {
+        console.log("[v0] Contribution graph element not found");
+        return;
+      }
+
+      graph.innerHTML = ''; // Clear existing content if any
+
+      const totalWeeks = 52;
+      const daysPerWeek = 7;
+
+      for (let week = 0; week < totalWeeks; week++) {
+        for (let day = 0; day < daysPerWeek; day++) {
+          const dayElement = document.createElement('div');
+          dayElement.className = 'contribution-day';
+
+          // Generate random contribution levels (0-4)
+          const level = Math.floor(Math.random() * 5);
+          dayElement.classList.add(`level-${level}`);
+
+          // Add hover tooltip
+          const levels = ['No contributions', '1-3 contributions', '4-6 contributions', '7-9 contributions', '10+ contributions'];
+          dayElement.title = levels[level];
+
+          graph.appendChild(dayElement);
+        }
+      }
+    }
+
+    // Call function when page loads
+    document.addEventListener('DOMContentLoaded', generateContributionGraph);
+
+    // Custom Alert for Private Repositories
+    function showPrivateAlert() {
+      const existingToast = document.querySelector('.private-alert-toast');
+      if (existingToast) existingToast.remove();
+
+      const toast = document.createElement('div');
+      toast.className = 'private-alert-toast fixed top-10 left-1/2 -translate-x-1/2 z-[100] bg-neo-pink text-white border-4 border-black shadow-neo px-8 py-4 font-black uppercase tracking-wider text-center animate-slide-down-rope';
+      toast.style.minWidth = '300px';
+      toast.innerHTML = '<i class="fas fa-lock mr-2"></i> Link repository was private';
+      document.body.appendChild(toast);
+
+      setTimeout(() => {
+        toast.style.opacity = '0';
+        toast.style.transition = 'opacity 0.5s ease-out';
+        setTimeout(() => toast.remove(), 500);
+      }, 3000);
+    }
+  </script>
+</body>
+
+</html>
