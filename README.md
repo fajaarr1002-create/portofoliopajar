@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=260&text=fajaarr1002-create&fontAlign=50&fontAlignY=40&color=0:020617,25:0f172a,50:1e293b,75:2563eb,100:38bdf8&fontColor=ffffff&animation=fadeIn"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=260&text=MYPORTOFOLIO&fontAlign=50&fontAlignY=40&color=0:020617,25:0f172a,50:1e293b,75:2563eb,100:38bdf8&fontColor=ffffff&animation=fadeIn"/>
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=800&lines=Selamat+datang+di+repositori+saya;Portfolio+Fotografi+dan+Pengembangan+Web;Belajar+Fotografi+dan+Penyuntingan;HTML+CSS+JavaScript"/>
 
