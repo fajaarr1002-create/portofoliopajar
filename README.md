@@ -1,77 +1,112 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=260&text=MYPORTOFOLIO&fontAlign=50&fontAlignY=40&color=0:020617,25:0f172a,50:1e293b,75:2563eb,100:38bdf8&fontColor=ffffff&animation=fadeIn"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=280&text=PORTOFOLIOPAJAR&fontAlign=50&fontAlignY=40&fontColor=00FF41&color=0:000000,25:001a00,50:003300,75:00AA22,100:00FF41&animation=twinkling"/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=800&lines=Selamat+datang+di+repositori+saya;Portfolio+Fotografi+dan+Pengembangan+Web;Belajar+Fotografi+dan+Penyuntingan;HTML+CSS+JavaScript"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=2000&pause=800&color=00FF41&center=true&vCenter=true&width=900&lines=root%40portofoliopajar%3A~%24+whoami;fajar;photographer+%7C+web+developer;learning+every+day;access+granted"/>
+
+<img src="https://komarev.com/ghpvc/?username=fajaarr1002-create&label=PROFILE+VIEWS&color=00ff41&style=for-the-badge"/>
 
 <br>
 
-<img src="https://img.shields.io/badge/status-private_repository-0f172a?style=for-the-badge&logo=github&logoColor=38bdf8"/>
-<img src="https://img.shields.io/badge/focus-photography-0f172a?style=for-the-badge&logo=canon&logoColor=38bdf8"/>
-<img src="https://img.shields.io/badge/learning-editing-0f172a?style=for-the-badge&logo=adobelightroom&logoColor=38bdf8"/>
-<img src="https://img.shields.io/badge/web-html_css_js-0f172a?style=for-the-badge&logo=visualstudiocode&logoColor=38bdf8"/>
+<img src="https://img.shields.io/badge/SYSTEM-ONLINE-00FF41?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/ACCESS-GRANTED-00FF41?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/STATUS-ACTIVE-00FF41?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/COUNTRY-INDONESIA-00FF41?style=for-the-badge"/>
 
 </div>
 
 ---
 
-# 🌌 PORTOFOLIOPAJAR
+# 💀 SYSTEM INFORMATION
 
 ```txt
-ANAK ESEMPEH
-Repositori Portfolio 
-Dibuat oleh pajarr
+┌─────────────────────────────────────┐
+│ USER      : FAJAR                   │
+│ COUNTRY   : INDONESIA               │
+│ STATUS    : ONLINE                  │
+│ ROLE      : PHOTOGRAPHER            │
+│ LEARNING  : WEB DEVELOPMENT         │
+└─────────────────────────────────────┘
 ```
 
 ---
 
-# 👋 TENTANG SAYA
+# 🖥 TERMINAL
+
+```bash
+root@portofoliopajar:~$ whoami
+
+Fajar
+
+root@portofoliopajar:~$ cat skills.txt
+
+HTML
+CSS
+JavaScript
+Photography
+Color Grading
+
+root@portofoliopajar:~$ system-status
+
+ONLINE
+```
+
+---
+
+# ⚡ ABOUT
+
+```txt
+[+] Portfolio Photography
+[+] Web Development Learning
+[+] UI Design Exploration
+[+] Personal Projects
+[+] Creative Documentation
+```
+
+Website portfolio sederhana untuk menampilkan hasil fotografi dan perjalanan belajar pengembangan web.
+
+---
+
+# 👨‍💻 PROFILE OBJECT
 
 ```python
-class Photographer:
-    def __init__(self):
-        self.nama = "Fajar"
-        self.negara = "Indonesia"
-        self.fokus = "Fotografi"
-        self.pembelajaran = ["Fotografi", "Color Grading", "Pengembangan Web"]
-        self.keahlian = ["HTML", "CSS", "JavaScript"]
+class Fajar:
 
-saya = Photographer()
+    def __init__(self):
+        self.name = "Fajar"
+        self.country = "Indonesia"
+        self.focus = "Photography"
+
+        self.learning = [
+            "Photography",
+            "Color Grading",
+            "Web Development"
+        ]
+
+        self.skills = [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+
+user = Fajar()
 ```
 
 ---
 
-# 📸 TENTANG PROYEK
-
-Repositori ini berisi proyek website portfolio fotografi sederhana yang dibuat untuk mendokumentasikan hasil karya sekaligus menjadi media pembelajaran dalam pengembangan web.
-
-Seluruh tampilan dan struktur website dikembangkan menggunakan:
-- HTML
-- CSS
-- JavaScript
-
-Proyek ini ditujukan bagi:
-- Pemula dalam pengembangan web
-- Pemula dalam fotografi
-- Individu yang ingin mempelajari desain antarmuka sederhana
-- Pengguna yang ingin membuat website portfolio pribadi
-
----
-
-# 🚀 FITUR
+# 📊 SKILL SCAN
 
 ```txt
-📸 Portfolio fotografi
-🎨 Desain modern dan estetis
-📱 Tampilan responsif
-⚡ Ringan dan sederhana
-🌙 Antarmuka bertema gelap
-💻 Ramah bagi pemula
+HTML          ██████████░░ 85%
+CSS           █████████░░░ 80%
+JavaScript    ███████░░░░░ 65%
+Photography   █████████░░░ 80%
+Editing       ███████░░░░░ 70%
 ```
 
 ---
 
-# 🛠 TEKNOLOGI YANG DIGUNAKAN
+# 🛠 TECHNOLOGY
 
 <div align="center">
 
@@ -81,7 +116,7 @@ Proyek ini ditujukan bagi:
 
 ---
 
-# 📂 STRUKTUR PROYEK
+# 📂 DIRECTORY STRUCTURE
 
 ```bash
 portofoliopajar/
@@ -89,84 +124,124 @@ portofoliopajar/
 ├── index.html
 ├── style.css
 ├── script.js
+├── assets/
 └── README.md
 ```
 
 ---
 
-# 🌐 KONTEN WEBSITE
+# 🚀 FEATURES
 
 ```txt
-🏠 Beranda
-📸 Galeri
-👤 Tentang Saya
-📬 Kontak
+[✓] Photography Portfolio
+[✓] Responsive Design
+[✓] Dark Interface
+[✓] Modern Layout
+[✓] Mobile Friendly
+[✓] Lightweight Website
 ```
 
 ---
 
-# 📊 STATUS REPOSITORI
+# 🌐 WEBSITE MENU
+
+```txt
+🏠 HOME
+📸 GALLERY
+👤 ABOUT
+📬 CONTACT
+```
+
+---
+
+# 📈 GITHUB STATS
 
 <div align="center">
 
-| Informasi | Status |
-|------------|---------|
-| Visibilitas | Privat |
-| Kategori | Portfolio Fotografi |
-| Pengembang | Pemula |
-| Fotografer | Pemula |
-| Negara | Indonesia |
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=fajaarr1002-create&show_icons=true&theme=chartreuse-dark"/>
+
+<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=fajaarr1002-create&theme=chartreuse-dark"/>
 
 </div>
 
 ---
 
-# 🎵 AKTIVITAS SAAT INI
+# 🔥 CONTRIBUTION GRAPH
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=fajaarr1002-create&theme=react-dark"/>
+
+</div>
+
+---
+
+# 🐍 SNAKE ANIMATION
+
+<div align="center">
+
+<img src="https://github.com/fajaarr1002-create/fajaarr1002-create/blob/output/github-contribution-grid-snake-dark.svg"/>
+
+</div>
+
+---
+
+# 📡 CURRENT ACTIVITY
 
 ```txt
-Mempelajari fotografi...
-Color Grading foto...
-Mengembangkan website...
-Meningkatkan kemampuan desain...
+[LOADING] Photography...
+[LOADING] Color Grading...
+[LOADING] Website Development...
+[LOADING] Design Practice...
+
+STATUS : ACTIVE
 ```
 
 ---
 
-# 🌐 MEDIA SOSIAL
+# 🌐 SOCIAL NETWORK
 
 <div align="center">
 
 <a href="https://instagram.com/snapshot.by.jare">
-<img src="https://img.shields.io/badge/instagram-snapshot.by.jare-111111?style=for-the-badge&logo=instagram&logoColor=white"/>
+<img src="https://img.shields.io/badge/INSTAGRAM-snapshot.by.jare-00FF41?style=for-the-badge&logo=instagram&logoColor=black"/>
 </a>
 
 <br><br>
 
 <a href="https://github.com/fajaarr1002-create">
-<img src="https://img.shields.io/badge/github-fajaarr1002--create-111111?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/GITHUB-fajaarr1002--create-00FF41?style=for-the-badge&logo=github&logoColor=black"/>
 </a>
 
 </div>
 
 ---
 
-# 💭 MOTTO
+# 🎯 MOTTO
 
-> "TIDUR WOI, JANGAN BEGADANG."
+```txt
+"TIDUR WOI, JANGAN BEGADANG."
+```
 
 ---
 
-# 🔒 INFORMASI
+# 🔐 ACCESS LOG
 
 ```txt
-Repositori ini bersifat privat.
-Sebagian file dan dokumentasi tidak tersedia untuk publik.
+[ OK ] Initializing system...
+[ OK ] Loading photography module...
+[ OK ] Loading web development module...
+[ OK ] Loading user profile...
+[ OK ] Authentication success...
+[ OK ] Access granted...
+
+WELCOME TO PORTOFOLIOPAJAR
 ```
 
 ---
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=140&section=footer&color=0:020617,25:0f172a,50:1e293b,75:2563eb,100:38bdf8"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=180&section=footer&color=0:000000,25:001a00,50:003300,75:00AA22,100:00FF41"/>
 
 </div>
