@@ -19,9 +19,6 @@
 
 <br><br>
 
-<img src="https://github-readme-stats.vercel.app/api?username=fajaarr1002-create&show_icons=true&theme=chartreuse-dark"/>
-
-<br><br>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=00FF41&width=1000&lines=root%40portofoliopajar%3A~%23+starting+system;loading+photography+module;loading+web+development+module;checking+security;access+granted;system+online;loading+portfolio;connecting+database;welcome+agent"/>
 
