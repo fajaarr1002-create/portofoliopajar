@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=36&pause=1000&color=00FF41&center=true&vCenter=true&width=1000&lines=PORTOFOLIOPAJAR;ACCESS+GRANTED;SYSTEM+ONLINE;PHOTOGRAPHY+AND+WEB+DEVELOPMENT;WELCOME+AGENT"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00FF41&center=true&vCenter=true&width=900&lines=ACCESS+GRANTED;LOADING+PORTFOLIO;PHOTOGRAPHY+MODULE+ACTIVE;WEB+DEVELOPMENT+MODULE+ACTIVE"/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=300&text=PORTOFOLIOPAJAR&fontSize=55&fontColor=00ff41&animation=fadeIn&color=0:000000,100:003300"/>
 
