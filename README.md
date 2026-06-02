@@ -15,7 +15,11 @@
 
 <br><br>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fajaarr1002-create&layout=compact&theme=chartreuse-dark"/>
+<img src="https://c.termai.cc/i130/aceE3.jpg" width="260"/>
+
+<br><br>
+
+<img src="https://github-readme-stats.vercel.app/api?username=fajaarr1002-create&show_icons=true&theme=chartreuse-dark"/>
 
 <br><br>
 
