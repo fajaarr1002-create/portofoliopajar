@@ -15,7 +15,7 @@
 
 <br><br>
 
-<img src="https://github-profile-trophy.vercel.app/?username=fajaarr1002-create&theme=matrix&no-frame=true&no-bg=true&row=1"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fajaarr1002-create&layout=compact&theme=chartreuse-dark"/>
 
 <br><br>
 
