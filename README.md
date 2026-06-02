@@ -6,33 +6,44 @@
 
 <img src="https://komarev.com/ghpvc/?username=fajaarr1002-create&color=00ff41&style=for-the-badge"/>
 
+<br>
+
 <img src="https://img.shields.io/badge/SYSTEM-ONLINE-00ff41?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/THREAT_LEVEL-LOW-00ff41?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/SECURITY-ACTIVE-00ff41?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/REPOSITORY-PRIVATE-00ff41?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/LOCATION-INDONESIA-00ff41?style=for-the-badge"/>
 
+<br><br>
+
+<img src="https://github-profile-trophy.vercel.app/?username=fajaarr1002-create&theme=matrix&no-frame=true&no-bg=true&row=1"/>
+
+<br><br>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=00FF41&width=1000&lines=root%40portofoliopajar%3A~%23+starting+system;loading+photography+module;loading+web+development+module;checking+security;access+granted;system+online;loading+portfolio;connecting+database;welcome+agent"/>
+
 </div>
 
----
-
-# TERMINAL
-
-```bash
-┌──────────────────────────────────────────────┐
-│ user@portofoliopajar:~$ ./whoami             │
-├──────────────────────────────────────────────┤
-│ NAME       : FAJAR                           │
-│ COUNTRY    : INDONESIA                       │
-│ LEVEL      : SMP                             │
-│ FOCUS      : PHOTOGRAPHY                     │
-│ STATUS     : ONLINE                          │
-│ MISSION    : LEARN • BUILD • CREATE          │
-└──────────────────────────────────────────────┘
+```diff
++ ACCESS GRANTED
++ SYSTEM ONLINE
++ SECURITY ACTIVE
++ PHOTOGRAPHY MODULE ACTIVE
++ WEB DEVELOPMENT MODULE ACTIVE
++ PORTFOLIO MODULE ACTIVE
 ```
 
----
+```yaml
+USER: FAJAR
+COUNTRY: INDONESIA
+LEVEL: SMP
+STATUS: ONLINE
+FOCUS: PHOTOGRAPHY
+REPOSITORY: PRIVATE
+```
 
-# PROFILE.EXE
+```fix
+PORTOFOLIOPAJAR
+```
 
 ```python
 class Photographer:
@@ -59,45 +70,14 @@ user = Photographer()
 print("Portfolio Loaded Successfully")
 ```
 
----
-
-# SYSTEM STATUS
-
 ```diff
-+ PHOTOGRAPHY MODULE ........ ACTIVE
-+ WEB DEVELOPMENT MODULE .... ACTIVE
-+ DESIGN MODULE ............. ACTIVE
-+ COLOR GRADING MODULE ...... ACTIVE
-+ PORTFOLIO MODULE .......... ACTIVE
-+ SYSTEM ONLINE
++ HTML           ████████████░░░░ 80%
++ CSS            ██████████░░░░░░ 70%
++ JAVASCRIPT     █████████░░░░░░░ 60%
++ PHOTOGRAPHY    ███████████░░░░░ 75%
++ EDITING        █████████░░░░░░░ 65%
++ CREATIVITY     ███████████░░░░░ 75%
 ```
-
----
-
-# TECHNOLOGY STACK
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=html,css,js,vscode,github&theme=dark"/>
-
-</div>
-
----
-
-# SKILL MATRIX
-
-```txt
-HTML           ████████████░░░░ 80%
-CSS            ██████████░░░░░░ 70%
-JAVASCRIPT     █████████░░░░░░░ 60%
-PHOTOGRAPHY    ███████████░░░░░ 75%
-EDITING        █████████░░░░░░░ 65%
-CREATIVITY     ███████████░░░░░ 75%
-```
-
----
-
-# PROJECT TREE
 
 ```bash
 portofoliopajar/
@@ -114,64 +94,48 @@ portofoliopajar/
 └── LICENSE
 ```
 
----
-
-# LIVE MONITOR
-
-```txt
-[21:37:01] Initializing Portfolio...
-[21:37:02] Loading Photography Assets...
-[21:37:03] Loading Web Development Projects...
-[21:37:04] Loading Gallery...
-[21:37:05] Checking System Integrity...
-[21:37:06] Loading User Profile...
-[21:37:07] Connecting Database...
-[21:37:08] Success.
-[21:37:09] Welcome To PortofolioPajar.
+```yaml
+[21:37:01]: Initializing Portfolio
+[21:37:02]: Loading Photography Assets
+[21:37:03]: Loading Web Development Projects
+[21:37:04]: Loading Gallery
+[21:37:05]: Checking System Integrity
+[21:37:06]: Loading User Profile
+[21:37:07]: Connecting Database
+[21:37:08]: Success
+[21:37:09]: Welcome To PortofolioPajar
 ```
-
----
-
-# GITHUB ANALYTICS
 
 <div align="center">
 
 <img height="170" src="https://github-readme-stats.vercel.app/api?username=fajaarr1002-create&show_icons=true&theme=chartreuse-dark"/>
 
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=fajaarr1002-create&theme=chartreuse-dark"/>
+<img height="170" src="https://streak-stats.demolab.com?user=fajaarr1002-create&theme=chartreuse-dark"/>
+
+<br><br>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fajaarr1002-create&layout=compact&theme=chartreuse-dark"/>
+
+<br><br>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=fajaarr1002-create&theme=react-dark&bg_color=000000&color=00ff41&line=00ff41&point=ffffff"/>
 
 </div>
 
----
+```ini
+CURRENT ACTIVITY
 
-# CONTRIBUTION MAP
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg"/>
-
-</div>
-
----
-
-# CURRENT ACTIVITY.LOG
-
-```txt
-> Learning Photography...
-> Practicing Color Grading...
-> Developing Websites...
-> Building Creative Projects...
-> Improving UI Design...
-> Exploring New Technologies...
+> Learning Photography
+> Practicing Color Grading
+> Developing Websites
+> Building Creative Projects
+> Improving UI Design
+> Exploring New Technologies
 
 STATUS : RUNNING
 ```
 
----
-
-# WEBSITE MODULES
-
-```txt
+```css
 [01] HOME
 [02] GALLERY
 [03] ABOUT
@@ -179,9 +143,14 @@ STATUS : RUNNING
 [05] PROJECTS
 ```
 
----
-
-# SOCIAL NETWORK
+```diff
++ PING SERVER............... OK
++ DATABASE.................. OK
++ PHOTOGRAPHY MODULE........ OK
++ WEB DEVELOPMENT........... OK
++ USER PROFILE.............. OK
++ SECURITY CHECK............ OK
+```
 
 <div align="center">
 
@@ -197,47 +166,35 @@ STATUS : RUNNING
 
 </div>
 
----
+```yaml
+ACCESS INFO
 
-# ACCESS INFO
-
-```txt
-USER            : FAJAR
-COUNTRY         : INDONESIA
-REPOSITORY      : PRIVATE
-CATEGORY        : PHOTOGRAPHY PORTFOLIO
-ACCESS LEVEL    : LIMITED
-STATUS          : ONLINE
+USER: FAJAR
+COUNTRY: INDONESIA
+REPOSITORY: PRIVATE
+CATEGORY: PHOTOGRAPHY PORTFOLIO
+ACCESS LEVEL: LIMITED
+STATUS: ONLINE
 ```
 
----
-
-# MOTTO.TXT
-
-```txt
+```fix
 "TIDUR WOI, JANGAN BEGADANG."
 ```
 
----
+```diff
++ Starting Services
++ Loading Photography Engine
++ Loading Portfolio Engine
++ Loading Web Development Engine
++ Checking System Security
 
-# TERMINAL OUTPUT
++ [ OK ]
++ [ OK ]
++ [ OK ]
++ [ OK ]
 
-```bash
-root@portofoliopajar:~#
-
-Starting Services...
-Loading Photography Engine...
-Loading Portfolio Engine...
-Loading Web Development Engine...
-Checking System Security...
-
-[ OK ]
-[ OK ]
-[ OK ]
-[ OK ]
-
-Welcome To PortofolioPajar
-Connection Established
++ Welcome To PortofolioPajar
++ Connection Established
 ```
 
 <div align="center">
